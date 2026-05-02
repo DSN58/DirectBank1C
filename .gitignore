@@ -1,0 +1,6 @@
+Git-*-bit.exe
+*.tmp
+*.bak
+*.log
+Thumbs.db
+desktop.ini
