@@ -387,7 +387,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа2" id="101">
-							<Group>AlwaysHorizontal</Group>
+
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="102" />
 							<ChildItems>
@@ -464,7 +464,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа3" id="103">
-							<Group>AlwaysHorizontal</Group>
+
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="104" />
 							<ChildItems>
