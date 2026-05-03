@@ -1087,7 +1087,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Вид операции поступление</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать с видом операции поступления</Comment>
@@ -1131,7 +1131,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Вид операции списание</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать с видом операции списания</Comment>
@@ -1175,7 +1175,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать с контрагентом документа</Comment>
@@ -1219,7 +1219,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Договор контрагента</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать с договором</Comment>
@@ -1263,7 +1263,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Банковский счет контрагента</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать с банковским счетом контрагента</Comment>
@@ -1307,7 +1307,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Статья ДДС</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать со статьей ДДС</Comment>
@@ -1351,7 +1351,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Счет Дт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать со счетом дебета</Comment>
@@ -1395,7 +1395,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Счет Кт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать со счетом кредита</Comment>
@@ -1439,7 +1439,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Подразделение Дт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать с подразделением дебета</Comment>
@@ -1483,7 +1483,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Подразделение Кт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать с подразделением кредита</Comment>
@@ -1527,7 +1527,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Действие</v8:content>
+							<v8:content>Статья прочих доходов и расходов</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment>Что делать со статьей прочих доходов/расходов</Comment>
