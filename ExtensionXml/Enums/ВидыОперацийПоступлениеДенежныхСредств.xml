@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="dc204d66-fd44-4726-bdfb-83c0c71150ed">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПоступлениеДенежныхСредств" category="Ref">
+				<xr:TypeId>43f305c5-36d5-41d0-9ec1-8b8e4f85726c</xr:TypeId>
+				<xr:ValueId>ca019b05-4064-4b2a-a42e-c085452bcb23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПоступлениеДенежныхСредств" category="Manager">
+				<xr:TypeId>fa0965b6-4cd4-4f29-88b8-04ad9f514858</xr:TypeId>
+				<xr:ValueId>478762d1-e655-4406-bffe-b7bd556e8411</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПоступлениеДенежныхСредств" category="List">
+				<xr:TypeId>e228aef9-0ac0-4d66-9cac-00160e735aa3</xr:TypeId>
+				<xr:ValueId>2f711de5-bae5-4d49-a40e-ee7fb7772753</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийПоступлениеДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6777c8a2-a5d8-4894-bf4d-8ebb48b8c41d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

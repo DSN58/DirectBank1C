@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="b174f0fc-9b66-4d85-84b4-0c92baa31d90">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВП_ВидыДействийЗаполненияРеквизитов" category="Ref">
+				<xr:TypeId>4a096672-b49b-4f29-aea7-a2c006df22d7</xr:TypeId>
+				<xr:ValueId>c8005604-01c9-4279-9190-947e51f772cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВП_ВидыДействийЗаполненияРеквизитов" category="Manager">
+				<xr:TypeId>1d87625f-80d6-4524-93b1-a576687f6413</xr:TypeId>
+				<xr:ValueId>bfad83d7-5c32-412b-afb7-aad75d46de5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВП_ВидыДействийЗаполненияРеквизитов" category="List">
+				<xr:TypeId>59f48993-73e4-4fe8-a735-dbd3c12720f5</xr:TypeId>
+				<xr:ValueId>20c1ae05-8b5a-4295-9fb1-9df83bfcbff7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВП_ВидыДействийЗаполненияРеквизитов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В п виды действий заполнения реквизитов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8f2cd249-8130-4d28-9da9-ce6c7cb4909b">
+				<Properties>
+					<Name>НеИзменять</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не изменять</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>			<EnumValue uuid="54d56ff7-a908-4587-bc92-723efc57370b">
+				<Properties>
+					<Name>Заполнить</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнить</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>			<EnumValue uuid="500fd99c-deff-4967-8860-12a0eae55995">
+				<Properties>
+					<Name>Очистить</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Очистить</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>		</ChildObjects>
+	</Enum>
+</MetaDataObject>

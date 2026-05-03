@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновная" id="107">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="108"/>
+			<ChildItems>
+				<UsualGroup name="Группа4" id="105">
+					<Representation>StrongSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="106"/>
+					<ChildItems>
+						<UsualGroup name="Группа5" id="109">
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="110"/>
+							<ChildItems>
+								<CheckBoxField name="Активно" id="7">
+									<DataPath>Объект.Активно</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="АктивноКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="АктивноРасширеннаяПодсказка" id="9"/>
+								</CheckBoxField>
+								<InputField name="Приоритет" id="10">
+									<DataPath>Объект.Приоритет</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПриоритетКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="ПриоритетРасширеннаяПодсказка" id="12"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНаименование" id="62">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="63"/>
+							<ChildItems>
+								<InputField name="Наименование" id="4">
+									<DataPath>Объект.Description</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+								</InputField>
+								<InputField name="Код" id="1">
+									<DataPath>Объект.Code</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Ограничители" id="64">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ограничители</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ограничители</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ОграничителиРасширеннаяПодсказка" id="65"/>
+							<ChildItems>
+								<InputField name="Организация" id="13">
+									<DataPath>Объект.Организация</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="14"/>
+									<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="15"/>
+								</InputField>
+								<InputField name="БанковскийСчетОрганизации" id="16">
+									<DataPath>Объект.БанковскийСчетОрганизации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="БанковскийСчетОрганизацииКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="БанковскийСчетОрганизацииРасширеннаяПодсказка" id="18"/>
+								</InputField>
+								<InputField name="ВидОперацииДокумента" id="19">
+									<DataPath>Объект.ВидОперацииДокумента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ВидОперацииДокументаКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="ВидОперацииДокументаРасширеннаяПодсказка" id="21"/>
+								</InputField>
+								<InputField name="Контрагент" id="22">
+									<DataPath>Объект.Контрагент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КонтрагентКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="24"/>
+								</InputField>
+								<InputField name="ИННПлательщика" id="25">
+									<DataPath>Объект.ИННПлательщика</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ИННПлательщикаКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="ИННПлательщикаРасширеннаяПодсказка" id="27"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Действие" id="66">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действие</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действие</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ДействиеРасширеннаяПодсказка" id="67"/>
+					<ChildItems>
+						<InputField name="РежимПоискаСчета" id="28">
+							<DataPath>Объект.РежимПоискаСчета</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РежимПоискаСчетаКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="РежимПоискаСчетаРасширеннаяПодсказка" id="30"/>
+							<Events>
+								<Event name="OnChange">РежимПоискаСчетаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="РежимЗаполненияСчета" id="31">
+							<DataPath>Объект.РежимЗаполненияСчета</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РежимЗаполненияСчетаКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="РежимЗаполненияСчетаРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="СчетНаОплатуПокупателю" id="34">
+							<DataPath>Объект.СчетНаОплатуПокупателю</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СчетНаОплатуПокупателюКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="СчетНаОплатуПокупателюРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="ДействиеВидОперацииПоступление" id="111">
+							<DataPath>Объект.ДействиеВидОперацииПоступление</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеВидОперацииПоступлениеКонтекстноеМеню" id="112"/>
+							<ExtendedTooltip name="ДействиеВидОперацииПоступлениеРасширеннаяПодсказка" id="113"/>
+							<Events>
+								<Event name="OnChange">ДействиеВидОперацииПоступлениеПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="ВидОперацииПоступление" id="68">
+							<DataPath>Объект.ВидОперацииПоступление</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВидОперацииПоступлениеКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="ВидОперацииПоступлениеРасширеннаяПодсказка" id="70"/>
+						</InputField>
+						<InputField name="ДействиеВидОперацииСписание" id="114">
+							<DataPath>Объект.ДействиеВидОперацииСписание</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеВидОперацииСписаниеКонтекстноеМеню" id="115"/>
+							<ExtendedTooltip name="ДействиеВидОперацииСписаниеРасширеннаяПодсказка" id="116"/>
+							<Events>
+								<Event name="OnChange">ДействиеВидОперацииСписаниеПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="ВидОперацииСписание" id="71">
+							<DataPath>Объект.ВидОперацииСписание</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВидОперацииСписаниеКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ВидОперацииСписаниеРасширеннаяПодсказка" id="73"/>
+						</InputField>
+						<InputField name="ДействиеКонтрагент" id="117">
+							<DataPath>Объект.ДействиеКонтрагент</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеКонтрагентКонтекстноеМеню" id="118"/>
+							<ExtendedTooltip name="ДействиеКонтрагентРасширеннаяПодсказка" id="119"/>
+							<Events>
+								<Event name="OnChange">ДействиеКонтрагентПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="ЗаполняемыйКонтрагент" id="74">
+							<DataPath>Объект.ЗаполняемыйКонтрагент</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЗаполняемыйКонтрагентКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ЗаполняемыйКонтрагентРасширеннаяПодсказка" id="76"/>
+						</InputField>
+						<InputField name="ДействиеДоговорКонтрагента" id="120">
+							<DataPath>Объект.ДействиеДоговорКонтрагента</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеДоговорКонтрагентаКонтекстноеМеню" id="121"/>
+							<ExtendedTooltip name="ДействиеДоговорКонтрагентаРасширеннаяПодсказка" id="122"/>
+							<Events>
+								<Event name="OnChange">ДействиеДоговорКонтрагентаПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="ЗаполняемыйДоговорКонтрагента" id="77">
+							<DataPath>Объект.ЗаполняемыйДоговорКонтрагента</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЗаполняемыйДоговорКонтрагентаКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="ЗаполняемыйДоговорКонтрагентаРасширеннаяПодсказка" id="79"/>
+						</InputField>
+						<InputField name="ДействиеБанковскийСчетКонтрагента" id="123">
+							<DataPath>Объект.ДействиеБанковскийСчетКонтрагента</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеБанковскийСчетКонтрагентаКонтекстноеМеню" id="124"/>
+							<ExtendedTooltip name="ДействиеБанковскийСчетКонтрагентаРасширеннаяПодсказка" id="125"/>
+							<Events>
+								<Event name="OnChange">ДействиеБанковскийСчетКонтрагентаПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="ЗаполняемыйБанковскийСчетКонтрагента" id="80">
+							<DataPath>Объект.ЗаполняемыйБанковскийСчетКонтрагента</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЗаполняемыйБанковскийСчетКонтрагентаКонтекстноеМеню" id="81"/>
+							<ExtendedTooltip name="ЗаполняемыйБанковскийСчетКонтрагентаРасширеннаяПодсказка" id="82"/>
+						</InputField>
+						<InputField name="ДействиеСтатьяДвиженияДенежныхСредств" id="126">
+							<DataPath>Объект.ДействиеСтатьяДвиженияДенежныхСредств</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="127"/>
+							<ExtendedTooltip name="ДействиеСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="128"/>
+							<Events>
+								<Event name="OnChange">ДействиеСтатьяДвиженияДенежныхСредствПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="СтатьяДвиженияДенежныхСредств" id="83">
+							<DataPath>Объект.СтатьяДвиженияДенежныхСредств</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="85"/>
+						</InputField>
+						<UsualGroup name="Группа2" id="101">
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="102"/>
+							<ChildItems>
+								<InputField name="ДействиеСчетДт" id="129">
+							<DataPath>Объект.ДействиеСчетДт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеСчетДтКонтекстноеМеню" id="130"/>
+							<ExtendedTooltip name="ДействиеСчетДтРасширеннаяПодсказка" id="131"/>
+							<Events>
+								<Event name="OnChange">ДействиеСчетДтПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="СчетДт" id="86">
+									<DataPath>Объект.СчетДт</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СчетДтКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="СчетДтРасширеннаяПодсказка" id="88"/>
+								</InputField>
+								<InputField name="ДействиеПодразделениеДт" id="132">
+							<DataPath>Объект.ДействиеПодразделениеДт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеПодразделениеДтКонтекстноеМеню" id="133"/>
+							<ExtendedTooltip name="ДействиеПодразделениеДтРасширеннаяПодсказка" id="134"/>
+							<Events>
+								<Event name="OnChange">ДействиеПодразделениеДтПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="ПодразделениеДт" id="89">
+									<DataPath>Объект.ПодразделениеДт</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПодразделениеДтКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ПодразделениеДтРасширеннаяПодсказка" id="91"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа3" id="103">
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="104"/>
+							<ChildItems>
+								<InputField name="ДействиеСчетКт" id="135">
+							<DataPath>Объект.ДействиеСчетКт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеСчетКтКонтекстноеМеню" id="136"/>
+							<ExtendedTooltip name="ДействиеСчетКтРасширеннаяПодсказка" id="137"/>
+							<Events>
+								<Event name="OnChange">ДействиеСчетКтПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="СчетКт" id="92">
+									<DataPath>Объект.СчетКт</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СчетКтКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="СчетКтРасширеннаяПодсказка" id="94"/>
+								</InputField>
+								<InputField name="ДействиеПодразделениеКт" id="138">
+							<DataPath>Объект.ДействиеПодразделениеКт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеПодразделениеКтКонтекстноеМеню" id="139"/>
+							<ExtendedTooltip name="ДействиеПодразделениеКтРасширеннаяПодсказка" id="140"/>
+							<Events>
+								<Event name="OnChange">ДействиеПодразделениеКтПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="ПодразделениеКт" id="95">
+									<DataPath>Объект.ПодразделениеКт</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПодразделениеКтКонтекстноеМеню" id="96"/>
+									<ExtendedTooltip name="ПодразделениеКтРасширеннаяПодсказка" id="97"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="ДействиеСтатьяПрочихДоходовИРасходов" id="141">
+							<DataPath>Объект.ДействиеСтатьяПрочихДоходовИРасходов</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДействиеСтатьяПрочихДоходовИРасходовКонтекстноеМеню" id="142"/>
+							<ExtendedTooltip name="ДействиеСтатьяПрочихДоходовИРасходовРасширеннаяПодсказка" id="143"/>
+							<Events>
+								<Event name="OnChange">ДействиеСтатьяПрочихДоходовИРасходовПриИзменении</Event>
+							</Events>
+						</InputField>						<InputField name="СтатьяПрочихДоходовИРасходов" id="98">
+							<DataPath>Объект.СтатьяПрочихДоходовИРасходов</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СтатьяПрочихДоходовИРасходовКонтекстноеМеню" id="99"/>
+							<ExtendedTooltip name="СтатьяПрочихДоходовИРасходовРасширеннаяПодсказка" id="100"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="УсловияНазначенияПлатежа" id="37">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.УсловияНазначенияПлатежа</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="УсловияНазначенияПлатежаКонтекстноеМеню" id="38"/>
+			<AutoCommandBar name="УсловияНазначенияПлатежаКоманднаяПанель" id="39"/>
+			<ExtendedTooltip name="УсловияНазначенияПлатежаРасширеннаяПодсказка" id="40"/>
+			<SearchStringAddition name="УсловияНазначенияПлатежаСтрокаПоиска" id="41">
+				<AdditionSource>
+					<Item>УсловияНазначенияПлатежа</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УсловияНазначенияПлатежаСтрокаПоискаКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="УсловияНазначенияПлатежаСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="УсловияНазначенияПлатежаСостояниеПросмотра" id="44">
+				<AdditionSource>
+					<Item>УсловияНазначенияПлатежа</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УсловияНазначенияПлатежаСостояниеПросмотраКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="УсловияНазначенияПлатежаСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="УсловияНазначенияПлатежаУправлениеПоиском" id="47">
+				<AdditionSource>
+					<Item>УсловияНазначенияПлатежа</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="УсловияНазначенияПлатежаУправлениеПоискомКонтекстноеМеню" id="48"/>
+				<ExtendedTooltip name="УсловияНазначенияПлатежаУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="УсловияНазначенияПлатежаНомерСтроки" id="50">
+					<DataPath>Объект.УсловияНазначенияПлатежа.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="УсловияНазначенияПлатежаНомерСтрокиКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="УсловияНазначенияПлатежаНомерСтрокиРасширеннаяПодсказка" id="52"/>
+				</LabelField>
+				<InputField name="УсловияНазначенияПлатежаВидУсловия" id="53">
+					<DataPath>Объект.УсловияНазначенияПлатежа.ВидУсловия</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="УсловияНазначенияПлатежаВидУсловияКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="УсловияНазначенияПлатежаВидУсловияРасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<InputField name="УсловияНазначенияПлатежаСтрокаПоиска1" id="56">
+					<DataPath>Объект.УсловияНазначенияПлатежа.СтрокаПоиска</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="УсловияНазначенияПлатежаСтрокаПоиска1КонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="УсловияНазначенияПлатежаСтрокаПоиска1РасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<CheckBoxField name="УсловияНазначенияПлатежаБезУчетаРегистра" id="59">
+					<DataPath>Объект.УсловияНазначенияПлатежа.БезУчетаРегистра</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УсловияНазначенияПлатежаБезУчетаРегистраКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="УсловияНазначенияПлатежаБезУчетаРегистраРасширеннаяПодсказка" id="61"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ВП_ПравилаОбработкиБанковскойВыписки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

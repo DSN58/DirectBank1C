@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.БанковскиеСчета" id="663cb6a4-c4bc-4632-92b1-1903729996b6" configVersion="4732c2dae69b89bf4ae73de5daf96388c67c3c05"/>
+		<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки" id="ccb0c1cb-64ba-41d3-813c-9e83f8beb506" configVersion="f9e3c5bf77385204b304b9148d85af5f89ceea7c">
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ЗаполняемыйДоговорКонтрагента" id="003928f2-ad4c-4a45-9952-cbce3e8adeeb"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.Приоритет" id="020f888f-e7ed-4cb9-b18b-ee24a79284da"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.Организация" id="18b85980-59af-4c1b-99b2-5050453cbd6c"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.СчетКт" id="1926d183-b2d2-4b71-8af4-56eb20e2f973"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ВидОперацииДокумента" id="20e190bf-ec1e-437e-badd-33b2c21ff224"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ПодразделениеКт" id="27036956-e491-4004-84bc-48d91d36e333"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.БанковскийСчетОрганизации" id="2d9f07d4-c056-48dd-ae61-d98e832306f3"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.Активно" id="4359d72b-5a12-41fc-85d3-619f36244726"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.TabularSection.УсловияНазначенияПлатежа.Attribute.БезУчетаРегистра" id="579248fc-53ad-4ec4-9cfb-2401d8f0b436"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.РежимЗаполненияСчета" id="57ee2200-59a1-4191-add7-4a26fae8c05f"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.СчетДт" id="5dbc1ece-d596-46c6-a3ef-7c7095ea710c"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ЗаполняемыйКонтрагент" id="5f37b26a-2afa-4471-998d-32a2d6a75f41"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.Контрагент" id="66d6a5d5-bcd4-4190-9241-b12c45fa90d4"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.СтатьяДвиженияДенежныхСредств" id="74267a4b-42bc-4bcf-abff-1d75dc5db104"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ИННПлательщика" id="754e19c3-a671-4b38-b7da-306d2c0f86e1"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.TabularSection.УсловияНазначенияПлатежа.Attribute.СтрокаПоиска" id="78e98e3a-0332-4004-bcd7-4e14e8b92f2b"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ПодразделениеДт" id="7c7cfe74-8305-40d5-862e-999606b9ee1d"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.TabularSection.УсловияНазначенияПлатежа.Attribute.ВидУсловия" id="8cc59bdf-3058-411c-a05e-3d15851e5d18"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ВидОперацииСписание" id="95bf466c-99ac-4361-828a-fef60dbfd784"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.РежимПоискаСчета" id="b441c169-7396-4c94-965b-820acec8d8ef"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.НаправлениеОперации" id="cd42fa9a-c839-41f4-b5dc-8c2bf55599df"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ВидОперацииПоступление" id="d4028cd8-f3be-4bf3-a86a-7fad7e7ef220"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.СчетНаОплатуПокупателю" id="ddb99797-5e9c-4569-84c9-95d9abb21f96"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.TabularSection.УсловияНазначенияПлатежа" id="dea17811-7216-498d-9f41-37a24e16b6ba"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.СтатьяПрочихДоходовИРасходов" id="e14e8716-c60d-4895-a58e-627e71d1c40d"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ЗаполняемыйБанковскийСчетКонтрагента" id="fb4bb08e-e1b0-4944-809f-a88fc97a1f7b"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеВидОперацииПоступление" id="8f827c72-5806-46d1-9058-f8fa806dddfe"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеВидОперацииСписание" id="7c711565-9084-4590-9521-3be89a100e0b"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеКонтрагент" id="cd86043e-578e-4a68-b124-ed00eafeb30e"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеДоговорКонтрагента" id="e4beac37-d223-46bd-b56d-0b794d185c14"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеБанковскийСчетКонтрагента" id="748bf47e-9668-4c8b-bea7-2fbcd7bb31ee"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеСтатьяДвиженияДенежныхСредств" id="07c8e16a-420f-46fe-80b7-a325308d5f42"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеСчетДт" id="1c504def-c88a-4e60-a629-866ef4cfe604"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеСчетКт" id="aad309d9-f397-4e61-82c8-566e1267d625"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеПодразделениеДт" id="4a5ea0cd-fb96-42d3-ac3d-82ac690a4188"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеПодразделениеКт" id="d0e17a7d-6574-4a72-966c-4f3287972dc3"/>
+			<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Attribute.ДействиеСтатьяПрочихДоходовИРасходов" id="2eaf2bd8-5430-4a62-885e-a5772db4f12f"/>
+		</Metadata>
+		<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Form.ФормаЭлемента" id="ffe4407e-1498-4161-a696-5ea6e871a9ff" configVersion="8bc46e3b19ca5a149aa0b2fcc5644f0353ba5353"/>
+		<Metadata name="Catalog.ВП_ПравилаОбработкиБанковскойВыписки.Form.ФормаЭлемента.Form" id="ffe4407e-1498-4161-a696-5ea6e871a9ff.0" configVersion="1a7b65cc772a407ea71c6c00a055ebb1c9417aa6"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="6157a04d-d333-42a4-8635-d323a857bbd0" configVersion="68a17c5c2dae7bb07bd80a65ec506d44f68ac068"/>
+		<Metadata name="Catalog.Контрагенты" id="a6660f02-6a1a-418f-8785-206197391837" configVersion="93750da9cb41bda7d9f6b85cf076b26d5ebb13b3"/>
+		<Metadata name="Catalog.Организации" id="970eb2a6-e14c-44b6-81f2-c116440e7d2d" configVersion="259eeaf87df6da9c636fe7c464f64f24f2a41b1b"/>
+		<Metadata name="Catalog.ПодразделенияОрганизаций" id="132d5b79-85a0-45c6-9d63-1af4cade94a9" configVersion="e524df514f051f9a4fcb710b0dcb982c1ced2818"/>
+		<Metadata name="Catalog.ПрочиеДоходыИРасходы" id="ace6f02a-f1f5-45f1-a49b-ed1bae5619f8" configVersion="b187db99ce607f67ab313f0bebcb27f4fb1f6cdb"/>
+		<Metadata name="Catalog.СтатьиДвиженияДенежныхСредств" id="0eddd333-b025-4b5e-8fba-9132de6fe7ea" configVersion="65d4316ee8e6cd88fa7c7f04259eb24d55108fa5"/>
+		<Metadata name="ChartOfAccounts.Хозрасчетный" id="b22dbd1b-9b64-4ee8-9555-59fc53d02c05" configVersion="a66be9a20ce8522f70d76a85b811f157443aa299"/>
+		<Metadata name="CommonModule.ВП_ПравилаОбработкиВыпискиСервер" id="b70bf7bb-d2e4-4b83-9966-7cc09fedc7ec" configVersion="63693e56c3e16d1bb523e4b56a055b889e29a41e"/>
+		<Metadata name="CommonModule.ВП_ПравилаОбработкиВыпискиСервер.Module" id="b70bf7bb-d2e4-4b83-9966-7cc09fedc7ec.0" configVersion="7005a34628d18d1c796200b1d34f9ba0284ffb6d"/>
+		<Metadata name="CommonModule.ЗагрузкаВыпискиПоБанковскомуСчету" id="3a93e5aa-d34e-4bc2-8978-f2c3c57b5f79" configVersion="5f81883837464a9dbf758640210efa39e14134c0"/>
+		<Metadata name="CommonModule.ЗагрузкаВыпискиПоБанковскомуСчету.Module" id="3a93e5aa-d34e-4bc2-8978-f2c3c57b5f79.0" configVersion="e4c7c6cc279d28a66436e6bd1b0332f12b4af7a5"/>
+		<Metadata name="Configuration.ЗагрузкаВыпискиИзБанкаПоПравилам" id="847f17f5-f0b0-4fb4-a67e-e2bcd1d1bc58" configVersion="5f86061dff6ebf16774c4c3afacbe4150e1a6475"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю" id="73005f39-d8a6-4636-8f94-a64e426f9187" configVersion="7e1ac67bc8b2cbcc1762bdd27eadb6056abb4831"/>
+		<Metadata name="Enum.ВП_ВидыДействийЗаполненияРеквизитов" id="b174f0fc-9b66-4d85-84b4-0c92baa31d90" configVersion="135c93af703fb70a2d5d458bb4c85ac8b047ea8a">
+			<Metadata name="Enum.ВП_ВидыДействийЗаполненияРеквизитов.EnumValue.НеИзменять" id="8f2cd249-8130-4d28-9da9-ce6c7cb4909b"/>
+			<Metadata name="Enum.ВП_ВидыДействийЗаполненияРеквизитов.EnumValue.Заполнить" id="54d56ff7-a908-4587-bc92-723efc57370b"/>
+			<Metadata name="Enum.ВП_ВидыДействийЗаполненияРеквизитов.EnumValue.Очистить" id="500fd99c-deff-4967-8860-12a0eae55995"/>
+		</Metadata>
+		<Metadata name="Enum.ВП_ВидыУсловийНазначенияПлатежа" id="8887bc33-a93f-4a85-9dcf-6ae3bbc374c2" configVersion="60fb96c779dbfc6c0c00ad2f647cc5583071aeb7">
+			<Metadata name="Enum.ВП_ВидыУсловийНазначенияПлатежа.EnumValue.Содержит" id="1f7106cc-def0-40f1-a48e-8ed6b31a263d"/>
+			<Metadata name="Enum.ВП_ВидыУсловийНазначенияПлатежа.EnumValue.НеСодержит" id="cabc8514-ea7f-4dae-843b-f5cf0c06f707"/>
+		</Metadata>
+		<Metadata name="Enum.ВП_НаправленияОперацийВыписки" id="13f760fd-fc83-467a-9996-0c769ecf4511" configVersion="b94eae29cb13ead09a862b0e06cb266517fd60ab">
+			<Metadata name="Enum.ВП_НаправленияОперацийВыписки.EnumValue.Любая" id="bfcd4c56-c827-4a9e-b722-f9db9701946f"/>
+			<Metadata name="Enum.ВП_НаправленияОперацийВыписки.EnumValue.Поступление" id="e5919aba-3482-4e25-ab97-53f5d05673ee"/>
+			<Metadata name="Enum.ВП_НаправленияОперацийВыписки.EnumValue.Списание" id="f8c45076-4f2a-440b-b571-a98682a4582b"/>
+		</Metadata>
+		<Metadata name="Enum.ВП_РежимыЗаполненияСчетаНаОплату" id="b583ee31-04d5-48f9-b371-a56771fa68e2" configVersion="097126b90de03d3274cdaec3786cccf7c26e80c4">
+			<Metadata name="Enum.ВП_РежимыЗаполненияСчетаНаОплату.EnumValue.ТолькоЕслиПусто" id="c0e41715-5dd7-426b-a8c6-a2eee1e6182c"/>
+			<Metadata name="Enum.ВП_РежимыЗаполненияСчетаНаОплату.EnumValue.Перезаписывать" id="e97ddf26-2b70-40ef-ae01-f2dba415251d"/>
+		</Metadata>
+		<Metadata name="Enum.ВП_РежимыПоискаСчетаНаОплату" id="937d9f44-1fa3-449f-bbe7-211587dd249f" configVersion="f177c025d13509ec2b5fc6990203b331ba7bba5d">
+			<Metadata name="Enum.ВП_РежимыПоискаСчетаНаОплату.EnumValue.РаспределитьПоНесколькимСчетам" id="3104df5e-2331-4984-9ea2-731709f4534d"/>
+			<Metadata name="Enum.ВП_РежимыПоискаСчетаНаОплату.EnumValue.ПоКонтрагентуЕслиОдин" id="4430e5e3-d5ce-40f4-92a7-89f0f7b1f452"/>
+			<Metadata name="Enum.ВП_РежимыПоискаСчетаНаОплату.EnumValue.ПоНомеруВНазначении" id="7f538949-32ef-41bd-a089-2bccc572d18f"/>
+			<Metadata name="Enum.ВП_РежимыПоискаСчетаНаОплату.EnumValue.КонкретныйСчет" id="a5783b9c-8003-46f0-9aa2-d06d60c9097e"/>
+			<Metadata name="Enum.ВП_РежимыПоискаСчетаНаОплату.EnumValue.НеЗаполнять" id="d7b51983-7526-45b7-a04e-f53c8f343938"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыОперацийПоступлениеДенежныхСредств" id="dc204d66-fd44-4726-bdfb-83c0c71150ed" configVersion="c07b2710229ed25e10e9be635b42f4cecfbff4fc"/>
+		<Metadata name="Enum.ВидыОперацийСписаниеДенежныхСредств" id="e57591fb-1d40-411e-84b8-72f575e1460c" configVersion="a0d4fe95df78968878a90225f2ac7b440ca2e34b"/>
+		<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки" id="5b5f4f41-5021-40a5-a7d8-1c83d1160e6b" configVersion="4dc590efd2f5edb131d66c4d575ffb1f6e7c9777">
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.РежимЗаполненияСчета" id="01319f33-1218-4923-8dff-b8e3a4cc86d9"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.Организация" id="02c5eca1-ee0f-4c16-beb3-fdc3b23f4cd9"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.РежимПоискаСчета" id="0a0ac8cb-89b8-4b85-af33-f5ee5607f73d"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.Контрагент" id="0b0fdee5-1c3a-4acb-aea1-00e31ffc0e5f"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Dimension.Правило" id="0ef7cd25-42bd-4c94-bf34-ea57797fe34c"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.Результат" id="1a5af403-9cd2-4473-88a7-0aac05c84e27"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.НомерДокументаБанка" id="477e6190-4c78-411b-a471-607376ea5a62"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.ИННПлательщика" id="4fe1b05f-ddf6-424f-839b-ed4c1cf2c020"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.Сумма" id="93d1ec00-b865-4087-a536-7b7708da12cc"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.Сообщение" id="9f1bd5d8-00a5-4cde-8ff0-d087b0762ce4"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.ДатаДокументаБанка" id="a4fe085e-1335-48a2-ab5c-22d437897bde"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Dimension.ИдентификаторОперации" id="a55a5ca3-792f-4822-bb0e-d6b1f272846e"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.БанковскийСчетОрганизации" id="a6a177e5-208f-46da-a5cc-c06187ee93fb"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Resource.СчетНаОплатуПокупателю" id="be12ff67-b13d-4f72-8233-4da95264e6a7"/>
+			<Metadata name="InformationRegister.ВП_ЖурналПримененияПравилВыписки.Dimension.ИдентификаторВыписки" id="ec3f6ee6-9cfc-435e-a879-61b969141226"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="faa93e84-716a-435f-b78b-9f4efdd31e50" configVersion="9bd7734f1fc1324f2502db4513723214a9c08efc"/>
+		<Metadata name="Role.Расш4_ОсновнаяРоль" id="a39748f6-3659-40b2-b42e-8a6a6b41c56c" configVersion="4d1671ce8a060a7cc883b99c7e29e594c90de729"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
